@@ -6,7 +6,7 @@
 
 PC23::PC23( unsigned int addr )
 {
-  init( addr );
+  //init( addr );
 }
 
 void PC23::init( unsigned int addr )

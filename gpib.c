@@ -19,11 +19,11 @@ GPIB::GPIB(const char *udname )
  assert(strlen(udname) <= 7);
  assert(strlen(udname) > 0);
 
- ud = ibfind((char *)udname);
- trapError("ibfind() failed during initialization");
- assert (ud >= 0);
+ //ud = ibfind((char *)udname);
+ //trapError("ibfind() failed during initialization");
+ //assert (ud >= 0);
 
- clear();
+ //clear();
 
 }
 
